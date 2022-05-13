@@ -1,0 +1,104 @@
+@import url('./reset.css');
+@import url('./flex.css');
+@import url('./global.css');
+
+/* Custom Styles */
+
+.main{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    width: 20rem;
+    height: 20rem;
+    border-radius: .5rem;
+    margin: 2rem auto;
+    background-color: white;
+    position: relative;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.buttons{
+    width: 20rem;
+    margin:0 auto;
+    text-align: center;
+    /* padding-left: .25rem; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: .25rem;
+}
+
+.buttons button{
+    margin: .5rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    
+
+}
+
+h2{
+   text-align: center;
+   position: absolute;
+   top:1rem;
+   left: 0;
+   right: 0;
+   font-size: 1.5rem;
+   font-weight: bold;
+   font-style: italic;
+   color: purple;
+}
+
+
+/* Stop watch */
+.stopwatch-display{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stopwatch{
+    text-align: center;
+}
+
+.stopwatch button{
+    margin: 1rem .5rem;
+
+}
+
+
+/* Countdown */
+
+.countdown {
+    text-align: center;
+}
+
+.countdown-display button{
+    margin: 1rem .75rem;
+}
+
+.countdown-label{
+ word-spacing: .5rem;
+ font-size: .9rem;
+ font-weight: 700;
+}
+
+.countdown-time{
+     word-spacing: .25rem;
+     font-size: 2rem;
+    font-weight: 700;
+}
+
+.countdown #btn{
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.35rem 1rem;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    color: purple;
+    border: 1px solid purple;
+    margin: 0 .5rem;
+}
