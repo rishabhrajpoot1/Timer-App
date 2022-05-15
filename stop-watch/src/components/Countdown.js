@@ -13,6 +13,7 @@ class Countdown extends React.Component {
         timerTime: this.state.timerTime,
         timerStart: this.state.timerTime
       });
+      
       this.timer = setInterval(() => {
         const newTime = this.state.timerTime - 10;
         if (newTime >= 0) {
